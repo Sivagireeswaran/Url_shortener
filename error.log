@@ -1,0 +1,17 @@
+2025-07-24 16:02:10,674 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-24 16:02:10,674 INFO [33mPress CTRL+C to quit[0m
+2025-07-24 16:02:18,288 INFO 127.0.0.1 - - [24/Jul/2025 16:02:18] "GET / HTTP/1.1" 200 -
+2025-07-24 16:02:18,384 INFO 127.0.0.1 - - [24/Jul/2025 16:02:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-24 16:02:21,679 INFO 127.0.0.1 - - [24/Jul/2025 16:02:21] "GET / HTTP/1.1" 200 -
+2025-07-24 16:03:08,632 INFO 127.0.0.1 - - [24/Jul/2025 16:03:08] "[31m[1mGET /api/shorten HTTP/1.1[0m" 405 -
+2025-07-24 16:03:35,447 INFO 127.0.0.1 - - [24/Jul/2025 16:03:35] "[33mGET /api/shorten. HTTP/1.1[0m" 404 -
+2025-07-24 16:03:39,841 INFO 127.0.0.1 - - [24/Jul/2025 16:03:39] "[33mGET /api/shorten/ HTTP/1.1[0m" 404 -
+2025-07-24 16:04:06,496 INFO 127.0.0.1 - - [24/Jul/2025 16:04:06] "[33mGET /<short_code> HTTP/1.1[0m" 404 -
+2025-07-24 16:05:45,328 INFO 127.0.0.1 - - [24/Jul/2025 16:05:45] "[35m[1mPOST /api/shorten HTTP/1.1[0m" 201 -
+2025-07-24 16:06:33,978 INFO 127.0.0.1 - - [24/Jul/2025 16:06:33] "[33mGET /QN1GX HTTP/1.1[0m" 404 -
+2025-07-24 16:08:00,621 INFO 127.0.0.1 - - [24/Jul/2025 16:08:00] "[35m[1mPOST /api/shorten HTTP/1.1[0m" 201 -
+2025-07-24 16:08:04,527 INFO 127.0.0.1 - - [24/Jul/2025 16:08:04] "[32mGET /zblTZn HTTP/1.1[0m" 302 -
+2025-07-24 16:08:07,061 INFO 127.0.0.1 - - [24/Jul/2025 16:08:07] "[32mGET /zblTZn HTTP/1.1[0m" 302 -
+2025-07-24 16:08:39,591 INFO 127.0.0.1 - - [24/Jul/2025 16:08:39] "[32mGET /zblTZn HTTP/1.1[0m" 302 -
+2025-07-24 16:09:03,520 INFO 127.0.0.1 - - [24/Jul/2025 16:09:03] "GET /api/stats/zblTZn HTTP/1.1" 200 -
