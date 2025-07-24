@@ -1,7 +1,7 @@
 # URL Shortener Service Documentation
 
 ## Overview
-This service provides a simple API to shorten URLs, redirect using a short code, and view analytics for each short code. All data is stored in memory and is lost when the server restarts. The project is implemented in Python using Flask.
+This Project provides a simple API to shorten URLs, redirect using a short code, and view analytics for each short code. All data is stored in memory and is lost when the server restarts. The project is implemented in Python using Flask.
 
 ---
 
